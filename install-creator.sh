@@ -169,7 +169,7 @@ function runGui() {
         local cmd=(dialog --clear --backtitle "$BACKTITLE" --cancel-label "Exit" --menu "Choose an option" 22 86 16)
         local options=(
             1 "Choose which modules to install"
-            2 "Create a module to install"
+            2 "Create a module from a boilerplate to install"
             3 "View or remove installed modules"
             4 "Install by section"
             5 "Update RetroPie-Extra"
@@ -183,7 +183,7 @@ function runGui() {
             2) createModule ;;
             3) viewModules ;;
             4) installBySection ;;
-            5) updateExtras ;;
+            5) updateCreator ;;
             6) guiAddAll ;;
             7) guiRemoveAll ;;
             esac
@@ -689,16 +689,16 @@ function viewBySection() {
     fi
 }
 
-    # Update RetroPie-Extra by running 'git pull origin'.
+    # Update Create-a-Retropie-Extra-Scriptmodule by running 'git pull origin'.
     #
     # This function provides a dialog-based prompt to confirm before running
     # 'git pull origin'. If the user confirms, the function runs the command
     # and displays the output in a dialog. If the user cancels, the operation
     # is aborted.
-function updateExtras() {
+function updateCreator() {
     if dialog --backtitle "$BACKTITLE" --cr-wrap --no-collapse --defaultno --yesno "Running 'git pull origin'\n\nWould you like to continue?" 20 60 2>&1 >/dev/tty; then
         local errormsg="$(git pull origin 2>&1)"
-        dialog --backtitle "$BACKTITLE" --cr-wrap --no-collapse --programbox "Updating RetroPie-Extra" 20 60 2>&1 >/dev/tty < <(echo "$errormsg" | fold -w 56 -s)
+        dialog --backtitle "$BACKTITLE" --cr-wrap --no-collapse --programbox "Updating Create-a-Retropie-Extra-Scriptmodule" 20 60 2>&1 >/dev/tty < <(echo "$errormsg" | fold -w 56 -s)
     else
         dialog --backtitle "$BACKTITLE" --cr-wrap --no-collapse --msgbox "Operation canceled." 8 24 2>&1 >/dev/tty
     fi
