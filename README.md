@@ -8,7 +8,9 @@ The wonderfull Exarkuniv has found a lot of such new scripts made by other peopl
 
 Most of the scripts do work as is.
 
-**This is suposed to be a GUI way of creating a boilerplate scriptmodule that then can be installed with Retropie-Setup the same way as Retropie-Extra does, but I will be adding the command line way as well.**
+**This is supposed to be a companion to Retropie-Setup and/or Retropie-Extras, a GUI way of installing a scriptmodule that when run can guide a user with no scripting experience through the process of creating own scriptmodules for RetroPie-Setup through dialogs. Which then can be installed by Retropie-Setup the same way as Retropie-Extra does, I will allso be adding a simple command line way as well.**
+think of this as a boilerplate scriptmodule for Retropie-Setup and/or a companion to Retropie-Extras that can itself: guide a user through the process of creating other scriptmodules for RetroPie-Setup through dialogs or simply using a command line way of using this script.
+
 
 **I DONT HAVE A X86, SO I DIDNT TEST THOSE SCRIPTS, YOUR ARE ON YOUR OWN**
 
