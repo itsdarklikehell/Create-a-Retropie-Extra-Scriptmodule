@@ -569,6 +569,7 @@ function removeSection() {
     # If the user confirms, the function attempts to restore the RetroPie-Extra
 
     # scriptmodules directory. If the user cancels, the operation is aborted.
+function chooseBySection() {
     local section="$1"
 
     local menu=()
