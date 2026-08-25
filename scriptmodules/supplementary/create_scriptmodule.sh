@@ -41,7 +41,7 @@ function depends_bgm123() {
 }
 
 function install_bin_bgm123() {
-    $(_get_vars_bgm123)
+    eval "$(_get_vars_bgm123)"
 
     local file
     local scripts=(
@@ -63,7 +63,7 @@ function install_bin_bgm123() {
 }
 
 function configure_bgm123() {
-    $(_get_vars_bgm123)
+    eval "$(_get_vars_bgm123)"
 
     # find gamelist
     local gamelist="$menudir/gamelist.xml"
@@ -128,7 +128,7 @@ function configure_bgm123() {
 
 function toggle_bgm123() {
     local file
-    $(_get_vars_bgm123)
+    eval "$(_get_vars_bgm123)"
 
     # attempt to remove any existing bgm config
     for file in "$autostart" "$bashrc" "$onstart" "$onend"; do
@@ -183,7 +183,7 @@ function enable_bgm123() {
 }
 
 function gui_bgm123() {
-    $(_get_vars_bgm123)
+    eval "$(_get_vars_bgm123)"
 
     while true; do
         iniConfig "=" '"' "$config"
