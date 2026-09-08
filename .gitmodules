@@ -1,0 +1,4 @@
+[submodule "RetroPie-Extra"]
+	path = RetroPie-Extra
+	url = https://github.com/Exarkuniv/RetroPie-Extra.git
+	branch = master
