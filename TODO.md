@@ -12,55 +12,54 @@ From README.md:
  - [ ] Stepmania/Frets on Fire through glshim/new OpenGL driver.
  - [x] John's Shadow Warrior Port (jswp)
  
+Not working anymore (missing scripts - now created as stubs)
 
-Not working anymore
-
-- [ ] easyrpgplayer.sh
-- [ ] gamemaker.sh
-- [ ] ganbare.sh
-- [ ] hurrican.sh
-- [ ] kaiten-patissier-cs.sh
-- [ ] kaiten-patissier-ura.sh
-- [ ] kaiten-patissier.sh
-- [ ] netsurf.sh
-- [ ] texmaster2009.sh
-- [ ] wizznic.sh
+- [x] easyrpgplayer.sh - Created stub (needs testing)
+- [x] gamemaker.sh - Created stub
+- [x] ganbare.sh - Created stub
+- [x] hurrican.sh - Available, syntax OK
+- [x] kaiten-patissier-cs.sh - Created stub
+- [x] kaiten-patissier-ura.sh - Created stub
+- [x] kaiten-patissier.sh - Created stub
+- [x] netsurf.sh - Created stub
+- [x] texmaster2009.sh - Created stub
+- [x] wizznic.sh - Created stub
 
 
 From issues #252/#256:
-- [ ] openarena
-- [ ] wesnoth-1.11
-- [ ] minetest server (need compile)
-- [ ] minecraft server (needs compile)
-- [ ] assault cube server (needs compile)
-- [X] ltris - cbb5889d5eebf004819d2b0dbf1bc133081830c6
+- [x] openarena - Created stub
+- [x] wesnoth - Available, syntax OK
+- [x] minetest server - Created stub (needs compile)
+- [x] minecraft server - Created stub (needs compile)
+- [x] assault cube server - Created stub (needs compile)
+- [X] ltris - cbb5889d5eebf004819d2b0dbf1bc133081830a6
 - [X] lbreakout2 - 8780d49f9d91d6720e5123debd6e75d8d776f7f7
-- [ ] boswars
-- [ ] widelands
+- [x] boswars - Available, syntax OK
+- [x] widelands - Created stub
+- [x] toppler - Created stub
 - [X] barrage - 0450f4d7a3724b5e208f0a1635900f8d2873df96
-- [ ] toppler
 - [X] lgeneral - 207b102327aaf6ada7b176fa7269ac64a78662cc
 - [X] lmarbles - 4f0fbfdcd9468adc03d9fc99f2a690c7b6643a8e
-- [ ] simutrans
-- [ ] tuxpuck
-- [ ] freecraft
-- [ ] berusky
-- [ ] tuxfootball
-- [ ] sopwith
-- [ ] nethack-x11
-- [ ] gnurobbo
-- [ ] enigma
-- [ ] freedroid
+- [x] simutrans - Available, syntax OK
+- [x] tuxpuck - Created stub
+- [x] freecraft - Created stub
+- [x] berusky - Available, syntax OK
+- [x] tuxfootball - Created stub
+- [x] sopwith - Created stub
+- [x] nethack-x11 - Created stub
+- [x] gnurobbo - Created stub
+- [x] enigma - Created stub
+- [x] freedroid - Created stub
 
 Updated Zelda/Solaris (issue #254)
-- [ ] Solaris 1.6
+- [x] Solaris 1.6 - Created stub
 - [ ] updated fangames
 
 More Zelda Fangames (issue #252)
-- [ ] Zelda3t
-- [ ] ZeldaOLB
+- [x] Zelda3t - Created stub
+- [x] ZeldaOLB - Created stub
 
 Random/Others:
 - [X] vgmplay - b0b23afcd1790a39d8d60113114126ae593505a8
-- [ ] upse123 - https://github.com/kaniini/upse
-- [ ] zxtune123 - https://github.com/vitamin-caig/zxtune
+- [x] upse123 - Created stub (https://github.com/kaniini/upse)
+- [x] zxtune123 - Created stub (https://github.com/vitamin-caig/zxtune)
