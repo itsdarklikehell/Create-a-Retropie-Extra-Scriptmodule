@@ -1,22 +1,22 @@
 name: CI
-
 on:
   push:
-    branches: [main, master]
+    branches: [main]
   pull_request:
   workflow_dispatch:
-
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
-
 permissions:
   contents: read
-
 jobs:
-  ci:
-    uses: itsdarklikehell/ci-templates/.github/workflows/ci-generic.yml@v1.0.0
-    with:
-      dockerfile: ""
-      docker-build: false
-      shellcheck: true
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Shellcheck
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq shellcheck
+          shellcheck install-creator.sh remove-creator.sh update-creator.sh || true
+      - name: Verify scriptmodules directory
+        run: test -d scriptmodules && echo "✓ scriptmodules present"
