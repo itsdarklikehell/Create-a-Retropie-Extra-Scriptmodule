@@ -357,3 +357,26 @@ I'll have a note at the end with some Info about it. if there is NO note or [X] 
 - [x] - Oricutron - Oric 1/Oric Atmos emulator.
 - [x] - sdltrs - Radio Shack TRS-80 Model I/III/4/4P emulator.
 - [x] - ti99sim - Texas Instruments 99A emulator.
+
+
+---
+
+## 🎥 Gource Visualization
+
+De ontwikkelhistorie van dit project in een film:
+
+<video src="https://raw.githubusercontent.com/itsdarklikehell/Create-a-Retropie-Extra-Scriptmodule/main/gource.mp4" controls width="100%"></video>
+
+*De video wordt automatisch gegenereerd door de [Gource workflow](.github/workflows/gource.yml) bij elke push.*
+
+Lokale video genereren:
+```bash
+gource --max-files 1000 --key -800x600 \
+  --highlight-users --filename-time 3 --output-framerate 25 \
+  -s 0.6 --multi-sampling --auto-skip-seconds 0.1 \
+  --stop-at-end --hide mouse,progress -o gource.ppm
+
+ffmpeg -y -r 15 -f image2pipe -vcodec ppm -i gource.ppm \
+  -vcodec libx264 -preset medium -pix_fmt yuv420p \
+  -crf 1 -threads 0 -bf 0 gource.mp4
+```
