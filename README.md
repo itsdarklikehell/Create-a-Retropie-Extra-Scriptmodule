@@ -3,6 +3,7 @@
 <img src="https://img.shields.io/github/stars/itsdarklikehell/Create-a-Retropie-Extra-Scriptmodule?style=flat-square&color=blue" alt="Stars">
 <img src="https://img.shields.io/github/forks/itsdarklikehell/Create-a-Retropie-Extra-Scriptmodule?style=flat-square&color=green" alt="Forks">
 <img src="https://img.shields.io/github/license/itsdarklikehell/Create-a-Retropie-Extra-Scriptmodule?style=flat-square" alt="License">
+<img src="https://img.shields.io/github/actions/workflow/status/itsdarklikehell/Create-a-Retropie-Extra-Scriptmodule/ci.yml?branch=main&label=CI&style=flat-square" alt="CI Status">
 
 A scriptkiddies way of creating unofficial installation scripts for RetroPie or Exarkuniv's Retropie-Extra — allowing you to quickly and easily create installation scripts for emulators, ports, libretrocores or anything you can run that haven't been added yet.
 
