@@ -43,6 +43,4 @@ MIT — zie [LICENSE](LICENSE) voor details.
 
 ## 🎥 Gource Visualization
 
-De ontwikkelhistorie van dit project in een film:
-
 <video src="https://raw.githubusercontent.com/itsdarklikehell/Create-a-Retropie-Extra-Scriptmodule/main/gource.mp4" controls width="100%"></video>
