@@ -10,6 +10,7 @@
 # https://raw.githubusercontent.com/Exarkuniv/RetroPie-Extra/master/LICENSE
 #
 
+set -euo pipefail
 rp_module_id="lr-yabasanshiro"
 rp_module_desc="Saturn & ST-V emulator - Yabasanshiro port for libretro"
 rp_module_help="ROM Extensions: .iso .cue .zip .ccd .mds\n\nCopy your Sega Saturn & ST-V roms to $romdir/saturn\n\nCopy the required BIOS file saturn_bios.bin / stvbios.zip to $biosdir/yabasanshiro"

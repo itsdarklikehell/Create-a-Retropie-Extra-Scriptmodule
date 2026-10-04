@@ -10,6 +10,7 @@
 # https://raw.githubusercontent.com/Exarkuniv/RetroPie-Extra/master/LICENSE
 #
 
+set -euo pipefail
 rp_module_id="bgm123"
 rp_module_desc="Straightforward background music player using mpg123"
 rp_module_help="Place your MP3 files in $datadir/bgm"
@@ -41,6 +42,7 @@ function depends_bgm123() {
 }
 
 function install_bin_bgm123() {
+    # shellcheck disable=SC2086
     eval "$(_get_vars_bgm123)"
 
     local file
@@ -63,6 +65,7 @@ function install_bin_bgm123() {
 }
 
 function configure_bgm123() {
+    # shellcheck disable=SC2086
     eval "$(_get_vars_bgm123)"
 
     # find gamelist
@@ -128,6 +131,7 @@ function configure_bgm123() {
 
 function toggle_bgm123() {
     local file
+    # shellcheck disable=SC2086
     eval "$(_get_vars_bgm123)"
 
     # attempt to remove any existing bgm config
@@ -183,6 +187,7 @@ function enable_bgm123() {
 }
 
 function gui_bgm123() {
+    # shellcheck disable=SC2086
     eval "$(_get_vars_bgm123)"
 
     while true; do
