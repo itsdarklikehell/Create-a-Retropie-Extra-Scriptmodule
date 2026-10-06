@@ -18,6 +18,7 @@
 # This function prints a help message explaining how to use the script, and
 # exits. It is called when the user runs the script with the -h or --help
 # option, or if they run it without any arguments.
+set -euo pipefail
 function runHelp() {
     cat >/dev/tty <<_BREAK_
 Installation utility to Create-a-Retropie-Extra-Scriptmodule, i.e add a supplement installation script to RetroPie-Setup, based on (and using) Retropie-Extra

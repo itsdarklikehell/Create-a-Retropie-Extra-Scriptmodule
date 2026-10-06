@@ -10,6 +10,7 @@
 # https://raw.githubusercontent.com/Exarkuniv/RetroPie-Extra/master/LICENSE
 #
 
+set -euo pipefail
 rp_module_id="rtcw"
 rp_module_desc="RTCW - IORTCW source port of Return to Castle Wolfenstein."
 rp_module_licence="GPL3 https://raw.githubusercontent.com/iortcw/iortcw/master/SP/COPYING.txt"

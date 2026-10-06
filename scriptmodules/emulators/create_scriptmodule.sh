@@ -9,6 +9,7 @@
 # at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
 #
 
+set -euo pipefail
 rp_module_id="supermodel-svn"
 rp_module_desc="Sega supermodel 3 version from sourceforge"
 rp_module_help="\
